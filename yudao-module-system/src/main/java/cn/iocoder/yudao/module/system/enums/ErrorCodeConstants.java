@@ -178,5 +178,6 @@ public interface ErrorCodeConstants {
 
     // ========== 学生 1_002_030_000 ==========
     ErrorCode STUDENT_NOT_EXISTS = new ErrorCode(1_002_030_000, "学生不存在");
+    ErrorCode STUDENT2_NOT_EXISTS = new ErrorCode(1_002_030_002, "学生不存在");
 
 }
