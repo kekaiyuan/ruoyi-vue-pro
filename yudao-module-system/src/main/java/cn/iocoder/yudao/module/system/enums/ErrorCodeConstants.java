@@ -176,4 +176,7 @@ public interface ErrorCodeConstants {
     // ========== 用户组 1_002_029_000 ==========
     ErrorCode GROUP_A_NOT_EXISTS = new ErrorCode(1_002_029_000, "用户组不存在");
 
+    // ========== 学生 1_002_030_000 ==========
+    ErrorCode STUDENT_NOT_EXISTS = new ErrorCode(1_002_030_000, "学生不存在");
+
 }
