@@ -179,5 +179,7 @@ public interface ErrorCodeConstants {
     // ========== 学生 1_002_030_000 ==========
     ErrorCode STUDENT_NOT_EXISTS = new ErrorCode(1_002_030_000, "学生不存在");
     ErrorCode STUDENT2_NOT_EXISTS = new ErrorCode(1_002_030_002, "学生不存在");
-
+    ErrorCode STUDENT3_NOT_EXISTS = new ErrorCode(1_002_030_003, "学生不存在");
+    ErrorCode STUDENT_COURSE3_NOT_EXISTS = new ErrorCode(1_002_030_004, "学生课程不存在");
+    ErrorCode STUDENT_GRADE3_NOT_EXISTS = new ErrorCode(1_002_030_005, "学生班级不存在");
 }
